@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluções contra Enchentes no RS</title>
+    <!-- Swiper CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Tailwind CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+        rel="stylesheet"
+    />
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Enchentes RS</h1>
+            <nav class="space-x-4">
+                <a href="#solucao" class="hover:underline">Sobre a Solução</a>
+                <a href="#beneficios" class="hover:underline">Benefícios</a>
+                <a href="#como-funciona" class="hover:underline">Como Funciona</a>
+                <a href="#noticias" class="hover:underline">Notícias</a>
+                <a href="#contato" class="hover:underline">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="bg-cover bg-center h-screen" style="background-image: url('imagem-enchente.jpg');">
+        <div class="bg-blue-900 bg-opacity-60 h-full flex flex-col items-center justify-center text-center text-white p-8">
+            <h2 class="text-4xl font-extrabold">Proteção contra Enchentes no Rio Grande do Sul</h2>
+            <p class="mt-4 text-lg">Tecnologia e planejamento para proteger nossas comunidades</p>
+            <a href="#solucao" class="mt-6 px-8 py-3 bg-yellow-500 rounded-full font-semibold hover:bg-yellow-600 transition duration-300">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- Sobre o Problema -->
+    <section id="solucao" class="container mx-auto p-8">
+        <h3 class="text-3xl font-bold text-blue-600 mb-4">Por que as Enchentes São um Problema?</h3>
+        <p class="text-lg">As enchentes causam impacto severo na economia, meio ambiente e na vida das pessoas no Rio Grande do Sul...</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <div class="bg-white shadow-md p-4 rounded">
+                <h4 class="font-semibold">Impacto Econômico</h4>
+                <p class="mt-2 text-gray-700">Prejuízos em milhões para o comércio e residências...</p>
+            </div>
+            <div class="bg-white shadow-md p-4 rounded">
+                <h4 class="font-semibold">Impacto Social</h4>
+                <p class="mt-2 text-gray-700">Deslocamento de famílias e perda de bens pessoais...</p>
+            </div>
+            <div class="bg-white shadow-md p-4 rounded">
+                <h4 class="font-semibold">Impacto Ambiental</h4>
+                <p class="mt-2 text-gray-700">Danos irreversíveis para a fauna e flora locais...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossa Solução -->
+    <section class="bg-gray-200 py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold text-blue-600">Nossa Solução</h3>
+            <p class="mt-4 text-lg text-gray-700">Utilizamos tecnologia avançada para monitoramento e prevenção de enchentes...</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div class="bg-white shadow-md p-6 rounded">
+                    <h4 class="font-semibold">Monitoramento em Tempo Real</h4>
+                    <p class="mt-2 text-gray-600">Sensores climáticos instalados nas áreas de risco.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded">
+                    <h4 class="font-semibold">Alerta Antecipado</h4>
+                    <p class="mt-2 text-gray-600">Sistema de alerta rápido para as comunidades.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded">
+                    <h4 class="font-semibold">Infraestrutura de Drenagem</h4>
+                    <p class="mt-2 text-gray-600">Soluções para controle e escoamento eficiente da água.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrossel de Notícias -->
+    <section class="container mx-auto p-8" id="noticias">
+        <h3 class="text-3xl font-bold text-blue-600 mb-4 text-center">Últimas Notícias sobre Enchentes no RS</h3>
+        <!-- Swiper -->
+        <div class="swiper mySwiper bg-white rounded shadow-lg">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide p-6">
+                    <h4 class="text-xl font-semibold">Enchentes afetam comunidades no Sul do Brasil</h4>
+                    <p class="text-gray-600 mt-2">As fortes chuvas recentes provocaram inundações em várias cidades do RS, causando danos em áreas urbanas e rurais...</p>
+                    <a href="#" class="text-blue-600 hover:underline mt-4 block">Leia mais</a>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide p-6">
+                    <h4 class="text-xl font-semibold">Novo sistema de alerta é implementado</h4>
+                    <p class="text-gray-600 mt-2">O governo anunciou a instalação de um sistema de alerta rápido para prevenção de enchentes em áreas vulneráveis...</p>
+                    <a href="#" class="text-blue-600 hover:underline mt-4 block">Leia mais</a>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide p-6">
+                    <h4 class="text-xl font-semibold">Impacto econômico das enchentes</h4>
+                    <p class="text-gray-600 mt-2">Estima-se que as enchentes tenham causado prejuízos de milhões para o setor agrícola e industrial no RS...</p>
+                    <a href="#" class="text-blue-600 hover:underline mt-4 block">Leia mais</a>
+                </div>
+            </div>
+            <!-- Swiper Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Swiper Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="container mx-auto py-12">
+        <h3 class="text-3xl font-bold text-blue-600 text-center mb-8">Benefícios da Solução</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-blue-600 text-white p-8 rounded-lg">
+                <h4 class="font-semibold">Segurança</h4>
+                <p class="mt-2">Proteção para famílias e empresas contra enchentes.</p>
+            </div>
+            <div class="bg-blue-600 text-white p-8 rounded-lg">
+                <h4 class="font-semibold">Economia</h4>
+                <p class="mt-2">Redução dos prejuízos financeiros causados por desastres.</p>
+            </div>
+            <div class="bg-blue-600 text-white p-8 rounded-lg">
+                <h4 class="font-semibold">Sustentabilidade</h4>
+                <p class="mt-2">Soluções verdes que respeitam o meio ambiente.</p>
+            </div>
+            <div class="bg-blue-600 text-white p-8 rounded-lg">
+                <h4 class="font-semibold">Comunicação Rápida</h4>
+                <p class="mt-2">Alertas em tempo real para maior segurança.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section id="como-funciona" class="bg-gray-100 py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold text-blue-600 mb-4">Como Funciona</h3>
+            <p class="text-lg mb-6">Saiba como nossa solução ajuda a prevenir enchentes.</p>
+            <img src="fluxo-sistema.png" alt="Fluxo do sistema" class="mx-auto rounded-lg">
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="container mx-auto py-12">
+        <h3 class="text-3xl font-bold text-blue-600 mb-4 text-center">Entre em Contato</h3>
+        <form action="#" method="POST" class="max-w-lg mx-auto">
+            <input type="text" name="nome" placeholder="Seu Nome" class="w-full p-3 mb-4 border rounded" required>
+            <input type="email" name="email" placeholder="Seu Email" class="w-full p-3 mb-4 border rounded" required>
+            <textarea name="mensagem" placeholder="Sua Mensagem" class="w-full p-3 mb-4 border rounded" required></textarea>
+            <button type="submit" class="w-full p-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-300">Enviar</button>
+        </form>
+    </section>
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>&copy; 2024 Enchentes RS. Todos os direitos reservados.</p>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>
